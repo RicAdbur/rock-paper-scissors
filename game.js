@@ -1,14 +1,18 @@
-// Pseudocode
+var numWins = 0;
+var numLosses = 0;
+var numTies = 0;
 
-// variables
-    // numWins
-    // numLosses
-    // numTies
+var choices = ["R", "P", "S"]
 
-// 2 players; Human and Computer
 // Both players choose R, P, S
     // Get input from Human user
+var humanChoice = prompt("Choose R, P, or S")
+console.log(humanChoice)
+
     // Random input generation from computer
+var randomNum = Math.floor( Math.random() * 3 )
+console.log( choices[randomNum] )
+
 
 // Compare choices
     // If humanChoice is S and computerChoice is P OR
