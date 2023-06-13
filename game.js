@@ -1,10 +1,9 @@
 var numWins = 0;
 var numLosses = 0;
 var numTies = 0;
-
 var choices = ["Rock", "Paper", "Scissors"]
-
 var keepPlaying = true
+
 while (keepPlaying) {
     // Get input from Human user
     var humanChoice = prompt("Choose Rock, Paper, or Scissors")
